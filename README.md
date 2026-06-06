@@ -36,7 +36,6 @@ An active network reconnaissance scan was executed using Nmap within an isolated
 | 23 | TCP | Open | Telnet | Linux telnetd |
 | 80 | TCP | Open | HTTP | Apache httpd 2.2.8 ((Ubuntu) DAV/2) |
 
----
 
 ## Step 6: Vulnerability Exploitation & Verification
 The service version tracking identified `vsftpd 2.3.4` running on Port 21. This specific version contains a historic malicious application backdoor execution path. 
